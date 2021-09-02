@@ -46,7 +46,7 @@ class MainViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         let padding: CGFloat = 60
         
-        layout.itemSize = CGSize(width: (collectionView.frame.size.width - padding) / 1.5, height: (collectionView.frame.size.height - padding) / 2.1)
+        layout.itemSize = CGSize(width: (collectionView.frame.size.width - padding) / 1.5, height: (collectionView.frame.size.height - padding) / 2.3)
         layout.scrollDirection = .horizontal
         
         collectionView.collectionViewLayout = layout
