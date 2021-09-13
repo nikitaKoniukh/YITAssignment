@@ -9,33 +9,34 @@
 /* Begin PBXBuildFile section */
 		AFB6FA9F1A09D1FB013A783F /* Pods_YITAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71341A0E1545E0FBB56042B /* Pods_YITAssignment.framework */; };
 		CA58453326E0119300F93EAE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58453226E0119300F93EAE /* Character.swift */; };
-		CA58453526E012BD00F93EAE /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58453426E012BD00F93EAE /* CharacterService.swift */; };
 		CA58453826E02CD100F93EAE /* UIView+CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58453726E02CD100F93EAE /* UIView+CardView.swift */; };
 		CA58453A26E0C25D00F93EAE /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58453926E0C25D00F93EAE /* Episode.swift */; };
-		CA58453C26E0CCB000F93EAE /* EpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58453B26E0CCB000F93EAE /* EpisodeService.swift */; };
 		CA99BD4026E0035100B2643B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD3F26E0035100B2643B /* AppDelegate.swift */; };
 		CA99BD4226E0035100B2643B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD4126E0035100B2643B /* SceneDelegate.swift */; };
-		CA99BD4426E0035100B2643B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD4326E0035100B2643B /* MainViewController.swift */; };
+		CA99BD4426E0035100B2643B /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD4326E0035100B2643B /* CharactersViewController.swift */; };
 		CA99BD4726E0035100B2643B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD4526E0035100B2643B /* Main.storyboard */; };
 		CA99BD4926E0035300B2643B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD4826E0035300B2643B /* Assets.xcassets */; };
 		CA99BD4C26E0035300B2643B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD4A26E0035300B2643B /* LaunchScreen.storyboard */; };
 		CA99BD5E26E0078C00B2643B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD5D26E0078C00B2643B /* DetailsViewController.swift */; };
 		CA99BD6126E00BDD00B2643B /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD5F26E00BDD00B2643B /* CharacterCollectionViewCell.swift */; };
 		CA99BD6226E00BDD00B2643B /* CharacterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD6026E00BDD00B2643B /* CharacterCollectionViewCell.xib */; };
+		CA9C6BB326EE2D6400416310 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C6BB226EE2D6400416310 /* NetworkService.swift */; };
+		CA9C6BB826EE6E5000416310 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C6BB726EE6E5000416310 /* CharactersViewModel.swift */; };
+		CA9C6BBA26EE715E00416310 /* CharactersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C6BB926EE715E00416310 /* CharactersProvider.swift */; };
+		CA9C6BBE26EE80F000416310 /* DetailsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C6BBD26EE80F000416310 /* DetailsProvider.swift */; };
+		CA9C6BC026EE811300416310 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C6BBF26EE811300416310 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CA41B5C4AAC96F094F2EF86 /* Pods-YITAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YITAssignment.debug.xcconfig"; path = "Target Support Files/Pods-YITAssignment/Pods-YITAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		9CC994C9E57124654845405D /* Pods-YITAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YITAssignment.release.xcconfig"; path = "Target Support Files/Pods-YITAssignment/Pods-YITAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		CA58453226E0119300F93EAE /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		CA58453426E012BD00F93EAE /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		CA58453726E02CD100F93EAE /* UIView+CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CardView.swift"; sourceTree = "<group>"; };
 		CA58453926E0C25D00F93EAE /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
-		CA58453B26E0CCB000F93EAE /* EpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeService.swift; sourceTree = "<group>"; };
 		CA99BD3C26E0035100B2643B /* YITAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YITAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA99BD3F26E0035100B2643B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA99BD4126E0035100B2643B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA99BD4326E0035100B2643B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CA99BD4326E0035100B2643B /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		CA99BD4626E0035100B2643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA99BD4826E0035300B2643B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA99BD4B26E0035300B2643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +44,11 @@
 		CA99BD5D26E0078C00B2643B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		CA99BD5F26E00BDD00B2643B /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA99BD6026E00BDD00B2643B /* CharacterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionViewCell.xib; sourceTree = "<group>"; };
+		CA9C6BB226EE2D6400416310 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CA9C6BB726EE6E5000416310 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		CA9C6BB926EE715E00416310 /* CharactersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersProvider.swift; sourceTree = "<group>"; };
+		CA9C6BBD26EE80F000416310 /* DetailsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProvider.swift; sourceTree = "<group>"; };
+		CA9C6BBF26EE811300416310 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		D71341A0E1545E0FBB56042B /* Pods_YITAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YITAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,9 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				CA58453626E02C9B00F93EAE /* Extensions */,
-				CA99BD5926E005BB00B2643B /* MVC */,
+				CA99BD5926E005BB00B2643B /* Screens */,
 				CA99BD5726E005A100B2643B /* Services */,
-				CA99BD5626E0056700B2643B /* Models */,
 				CA99BD5526E0045500B2643B /* Assets */,
 				CA99BD5426E0044400B2643B /* Suporting Files */,
 				CA99BD5326E0043700B2643B /* AppLifeCycle */,
@@ -134,49 +139,77 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		CA99BD5626E0056700B2643B /* Models */ = {
+		CA99BD5726E005A100B2643B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C6BB226EE2D6400416310 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA99BD5926E005BB00B2643B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD5B26E0070100B2643B /* Detail Screen */,
+				CA99BD5A26E005D700B2643B /* Main Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CA99BD5A26E005D700B2643B /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C6BB526EE2E7100416310 /* Models */,
+				CA9C6BB426EE2E5600416310 /* Views */,
+				CA9C6BB926EE715E00416310 /* CharactersProvider.swift */,
+				CA9C6BB726EE6E5000416310 /* CharactersViewModel.swift */,
+				CA99BD4326E0035100B2643B /* CharactersViewController.swift */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		CA99BD5B26E0070100B2643B /* Detail Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C6BBC26EE80CE00416310 /* Views */,
+				CA9C6BBB26EE80B800416310 /* Models */,
+				CA9C6BBD26EE80F000416310 /* DetailsProvider.swift */,
+				CA9C6BBF26EE811300416310 /* DetailsViewModel.swift */,
+				CA99BD5D26E0078C00B2643B /* DetailsViewController.swift */,
+			);
+			path = "Detail Screen";
+			sourceTree = "<group>";
+		};
+		CA9C6BB426EE2E5600416310 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD5F26E00BDD00B2643B /* CharacterCollectionViewCell.swift */,
+				CA99BD6026E00BDD00B2643B /* CharacterCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CA9C6BB526EE2E7100416310 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				CA58453226E0119300F93EAE /* Character.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CA9C6BBB26EE80B800416310 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				CA58453926E0C25D00F93EAE /* Episode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CA99BD5726E005A100B2643B /* Services */ = {
+		CA9C6BBC26EE80CE00416310 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CA58453426E012BD00F93EAE /* CharacterService.swift */,
-				CA58453B26E0CCB000F93EAE /* EpisodeService.swift */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		CA99BD5926E005BB00B2643B /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				CA99BD5B26E0070100B2643B /* DetailMVC */,
-				CA99BD5A26E005D700B2643B /* MainMVC */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		CA99BD5A26E005D700B2643B /* MainMVC */ = {
-			isa = PBXGroup;
-			children = (
-				CA99BD4326E0035100B2643B /* MainViewController.swift */,
-				CA99BD5F26E00BDD00B2643B /* CharacterCollectionViewCell.swift */,
-				CA99BD6026E00BDD00B2643B /* CharacterCollectionViewCell.xib */,
-			);
-			path = MainMVC;
-			sourceTree = "<group>";
-		};
-		CA99BD5B26E0070100B2643B /* DetailMVC */ = {
-			isa = PBXGroup;
-			children = (
-				CA99BD5D26E0078C00B2643B /* DetailsViewController.swift */,
-			);
-			path = DetailMVC;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CDBD4548B26C1E7DFCF2A078 /* Frameworks */ = {
@@ -302,11 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9C6BB826EE6E5000416310 /* CharactersViewModel.swift in Sources */,
+				CA9C6BB326EE2D6400416310 /* NetworkService.swift in Sources */,
+				CA9C6BC026EE811300416310 /* DetailsViewModel.swift in Sources */,
 				CA99BD6126E00BDD00B2643B /* CharacterCollectionViewCell.swift in Sources */,
 				CA58453826E02CD100F93EAE /* UIView+CardView.swift in Sources */,
-				CA99BD4426E0035100B2643B /* MainViewController.swift in Sources */,
-				CA58453C26E0CCB000F93EAE /* EpisodeService.swift in Sources */,
-				CA58453526E012BD00F93EAE /* CharacterService.swift in Sources */,
+				CA99BD4426E0035100B2643B /* CharactersViewController.swift in Sources */,
+				CA9C6BBA26EE715E00416310 /* CharactersProvider.swift in Sources */,
+				CA9C6BBE26EE80F000416310 /* DetailsProvider.swift in Sources */,
 				CA99BD4026E0035100B2643B /* AppDelegate.swift in Sources */,
 				CA58453326E0119300F93EAE /* Character.swift in Sources */,
 				CA99BD4226E0035100B2643B /* SceneDelegate.swift in Sources */,
